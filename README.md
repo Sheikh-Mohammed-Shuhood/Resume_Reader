@@ -18,3 +18,5 @@ Here I wanted to test out the models which are available locally to get response
 Seeing my system compability of 8GB RAM and 2GB Graphics, running a Llama 3.2 (3B parameter) model.
 
 Llama 3.2 is fast, uses minimal memory, and works good for short summary.
+
+Intial size of the folder before downloading Ollama - 408KB
