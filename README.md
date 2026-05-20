@@ -21,3 +21,5 @@ Llama 3.2 is fast, uses minimal memory, and works good for short summary.
 
 Intial size of the folder before downloading Ollama - 408KB
 The 3B model from ollama that is llama3.2.3b is 2GB.
+
+Run the below command in the powershell if you are using Windows, to download ollama
