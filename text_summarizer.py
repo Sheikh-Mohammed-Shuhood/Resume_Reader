@@ -19,7 +19,7 @@ def summarize_text(text_to_summarize):
             {'role': 'user', 'content': f"Please summarize this text:\n\n{text_to_summarize}"}
         ],
         options={
-            'temperature': 1.0, # Low temperature makes the summary more factual and structured
+            'temperature': 1.0, # Low temperature makes the summary more factual and structured, range of value from 0 to 2
         }
     )
     
