@@ -23,4 +23,4 @@ Intial size of the folder before downloading Ollama - 408KB
 The 3B model from ollama that is llama3.2.3b is 2GB.
 
 Run the below command in the powershell if you are using Windows, to download ollama model.
-Gives out of memory error.
+Gives out of memory error while running ollama. 
