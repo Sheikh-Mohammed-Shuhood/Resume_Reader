@@ -24,3 +24,6 @@ def summarize_text(text_to_summarize):
     )
     
     return response['message']['content']
+
+def main():
+    print("Welcome to the Text Summarizer!")
