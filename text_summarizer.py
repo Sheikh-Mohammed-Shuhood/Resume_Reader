@@ -1,6 +1,7 @@
 import ollama
 
 def summarize_text(text_to_summarize):
+    # This section is for doing LLM call
     print("Initializing local Llama 3.2 3B model...")
     print("Using hybrid GPU/CPU processing...")
     
@@ -24,7 +25,6 @@ def summarize_text(text_to_summarize):
     )
     
     return response['message']['content']
-
 
 def main():
     print("Welcome to the Text Summarizer!")
