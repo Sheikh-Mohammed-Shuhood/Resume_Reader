@@ -2,7 +2,7 @@ import pypdf
 
 def read_pdf(file_path):
     try:
-        # Open the PDF file in read-binary mode
+        # Open the PDF file in read-binary mode, to read the contents
         with open(file_path, 'rb') as file:
             # Create a PDF reader object
             pdf_reader = pypdf.PdfReader(file)
