@@ -30,3 +30,4 @@ def read_pdf(file_path):
 def main():
     read_pdf('Documents\Resume_v3.pdf')
 
+
