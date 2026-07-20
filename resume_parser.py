@@ -29,5 +29,3 @@ def read_pdf(file_path):
 # Replace 'example.pdf' with the path to your actual PDF file. The lcoation of your file.
 def main():
     read_pdf('Documents\Resume_v3.pdf')
-
-
