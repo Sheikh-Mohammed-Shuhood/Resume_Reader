@@ -25,7 +25,6 @@ def read_pdf(file_path):
     except Exception as e:
         print(f"An error occurred: {e}")
         
-        
 # Example usage:
 # Replace 'example.pdf' with the path to your actual PDF file. The lcoation of your file.
 def main():
