@@ -24,9 +24,10 @@ def read_pdf(file_path):
         print(f"Error: The file at '{file_path}' was not found.")
     except Exception as e:
         print(f"An error occurred: {e}")
+
         
 # Example usage:
-# Replace 'example.pdf' with the path to your actual PDF file. The lcoation of your file.
+# Replace 'example.pdf' with the path to your actual PDF file. The location of your file.
 def main():
     read_pdf('Documents\Resume_v3.pdf')
 
