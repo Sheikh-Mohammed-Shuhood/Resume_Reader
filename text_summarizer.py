@@ -1,6 +1,5 @@
 import ollama
 
-
 def summarize_text(text_to_summarize):
     # This section is for doing LLM call, a local model or API call can be done.
     print("Initializing local Llama 3.2 3B model...")
