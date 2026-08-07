@@ -5,6 +5,7 @@ def summarize_text(text_to_summarize):
     print("Initializing local Llama 3.2 3B model...")
     print("Using hybrid GPU/CPU processing...")
     
+    
     # Define a strict system prompt to keep the summary focused
     system_instruction = (
         "You are an advanced text summarizer. Provide a clear, concise summary "
