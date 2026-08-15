@@ -12,6 +12,7 @@ def summarize_text(text_to_summarize):
         "conversational filler, introductions, or conclusions. Do not halicunate things."
     )
     
+    
     # Call the local model
     response = ollama.chat(
         model='llama3.2:3b',
