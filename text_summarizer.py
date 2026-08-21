@@ -11,8 +11,6 @@ def summarize_text(text_to_summarize):
         "of the text provided. Use bullet points if necessary. Do not include any "
         "conversational filler, introductions, or conclusions. Do not halicunate things."
     )
-    
-
 
 
     # Call the local model
