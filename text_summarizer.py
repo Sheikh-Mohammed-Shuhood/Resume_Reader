@@ -14,6 +14,8 @@ def summarize_text(text_to_summarize):
 
 
 
+
+
     # Call the local model
     response = ollama.chat(
         model='llama3.2:3b',
