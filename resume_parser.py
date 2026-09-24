@@ -20,7 +20,6 @@ def read_pdf(file_path):
                 print(text)
                 print("\n")
 
-
     except FileNotFoundError:
         print(f"Error: The file at '{file_path}' was not found.")
     except Exception as e:
